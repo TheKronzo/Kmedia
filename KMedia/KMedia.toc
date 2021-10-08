@@ -1,0 +1,18 @@
+## Interface: 80000
+## Title: Kmedia
+## Notes: Inserts some media into LibSharedMedia's storage.
+## Version: 3.1.0-191
+## Author: Kronzo
+## X-Category: Miscellaneous
+
+##remember credits
+
+## OptionalDeps: LibStub, LibSharedMedia-3.0
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+libs\LibSharedMedia-3.0\lib.xml
+#@end-no-lib-strip@
+
+KMedia.lua
